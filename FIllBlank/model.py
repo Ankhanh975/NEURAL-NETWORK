@@ -6,22 +6,22 @@ from tensorflow.python.keras.layers.recurrent import SimpleRNN
 
 X_train = y_train = []
 X_test = y_test = []
-with open("from/aticle2.txt", "r", encoding="utf-8") as r:
+with open("from/,2.txt", "r", encoding="utf-8") as r:
     x = r.read()
     for i in x:
         X_train.append(i)
 
-with open("to/aticle2.txt", "r", encoding="utf-8") as r:
+with open("to/article2.txt", "r", encoding="utf-8") as r:
     x = r.read()
     for i in x:
         y_train.append(i)
         
-with open("from/aticle2.txt", "r", encoding="utf-8") as r:
+with open("from/article2.txt", "r", encoding="utf-8") as r:
     x = r.read()
     for i in x:
         X_test.append(i)
 
-with open("to/aticle2.txt", "r", encoding="utf-8") as r:
+with open("to/article2.txt", "r", encoding="utf-8") as r:
     x = r.read()
     for i in x:
         y_test.append(i)
