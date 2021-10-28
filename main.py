@@ -1,3 +1,3 @@
-import tensorflow as tf
+from gensim.models import FastText
 
-print("tensorflow version:", tf.__version__)
+fasttext_model = FastText.load_fasttext_format('cc.ko.300.bin', encoding='utf8')
